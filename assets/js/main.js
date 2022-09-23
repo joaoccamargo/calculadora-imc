@@ -9,7 +9,7 @@ function meuImc() {
         const altura = form.querySelector('.altura');
         const peso = form.querySelector('.peso');
 
-        const calcPesoAltura = (peso.value / altura.value);
+        const calcPesoAltura = peso.value / (altura.value ** 2);
         console.log(calcPesoAltura);
 
 
